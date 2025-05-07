@@ -9,10 +9,13 @@ I HAVE USED A PYTHON SCRIPTUSING LIBRARIES LIKE HASHLIB TO
 ENSURE FILE INTEGRITY AND I USED THE PLATFORMS LIKE GOOGLE ONLINE PYTHON COMPLIER FROM ONE COMPLIER WEBSITE FROM GOOGLE...
 *OUTPUT*
 <img width="379" alt="Image" src="https://github.com/user-attachments/assets/2024e928-1c4c-412a-8790-8f7b0e2bc9a7" />
+
 File Integrity Monitoring Script
+
 This Python script provides tools to efficiently check the integrity of files within a directory by comparing their hashes against a known list of valid hashes.
 
 Features
+
 Calculates MD5 hashes for file integrity verification. Recursively scans specified directories. Loads valid hashes from an external file for comparison. Includes robust error handling for common file exceptions (permission errors, file not found, etc.). Monitors its own memory usage and provides warnings if a threshold is exceeded. Prints informative progress updates during execution. Usage
 
 Clone this repository.
